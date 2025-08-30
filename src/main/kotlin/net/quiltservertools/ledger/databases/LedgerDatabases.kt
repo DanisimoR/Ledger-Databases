@@ -12,5 +12,5 @@ object LedgerDatabases : DedicatedServerModInitializer {
         ExtensionManager.registerExtension(LedgerDatabaseExtension())
     }
 
-    fun identifier(path: String) = Identifier(MOD_ID, path)
+    fun identifier(path: String): Identifier = Identifier.of(MOD_ID, path)
 }

@@ -6,5 +6,5 @@ import javax.sql.DataSource
 
 interface LedgerDatabase {
     fun getDataSource(savePath: Path): DataSource
-    fun getDatabaseIdentifier(): Identifier
+    fun getDatabaseIdentifier(): Identifier?
 }

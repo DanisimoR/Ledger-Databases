@@ -25,10 +25,10 @@
   },
 
   "depends": {
-    "fabricloader": ">=0.12.5",
+    "fabricloader": ">=0.15.11",
     "fabric": "*",
-    "java": ">=16",
-    "ledger": ">=1.3.0",
+    "java": ">=21",
+    "ledger": ">=1.3.10",
     "fabric-language-kotlin": "*"
   }
 }
